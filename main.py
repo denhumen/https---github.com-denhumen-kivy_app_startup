@@ -4,14 +4,10 @@ from kivy.uix.label import Label
 from kivy.uix.widget import Widget
 from kivy.uix.gridlayout import GridLayout
 from kivy.properties import ObjectProperty
-import sounddevice as sd
-from scipy.io.wavfile import write
 import threading
-import whisper
 import speech_recognition
 import pyttsx3 as tts
 from neuralintents import GenericAssistant
-import sys
 from kivy.utils import platform
 from kivy.clock import Clock
 
